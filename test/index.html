@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>NiceTour</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <meta name="robots" content="noindex,nofollow" />
+    
+    	<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">-->
+        <link rel="stylesheet" type="text/css" href="../qtip/jquery.qtip.min.css" />
+    
+    	<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    	<!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>-->
+        <script type="text/javascript" src="../qtip/jquery.qtip.min.js"></script>
+        <script type="text/javascript" src="../niceTour.js"></script>
+        
+        
+        <script type='text/javascript'>
+            $(document).ready(function() {
+                niceTour.init({
+                    'steps': [
+                        {
+                            'element': '#exampleInputEmail1',
+                            'title': 'Title 1',
+                            'content': 'Content 1',
+                            'position': {
+                                'my': 'top center',
+                                'at': 'bottom center'
+                            }
+                        },
+                        {
+                            'element': '#exampleInputPassword1',
+                            'title': 'Title 2',
+                            'content': 'Content 2',
+                            'position': {
+                                'my': 'top center',
+                                'at': 'bottom center'
+                            }
+                        },
+                        {
+                            'element': '#exampleInputFile',
+                            'title': 'Title 3',
+                            'content': 'Content 3',
+                            'position': {
+                                'my': 'top left',
+                                'at': 'bottom left'
+                            }
+                        },
+                        {
+                            'element': '#checkbox',
+                            'title': 'Title 4',
+                            'content': 'Content 4',
+                            'position': {
+                                'my': 'top left',
+                                'at': 'bottom left'
+                            },
+                            'next': '#checkbox'
+                        },
+                        {
+                            'element': '#submit',
+                            'title': 'Title 5',
+                            'content': 'Content 5',
+                            'position': {
+                                'my': 'bottom left',
+                                'at': 'top center'
+                            },
+                            'scroll': true
+                        }
+                    ]
+                });
+                niceTour.start();
+            });
+        </script>
+        
+    </head>
+    <body>
+        <div class="container">
+        	<div class="row">
+        		<div class="col-md-12">
+        			<form>
+        				<div class="form-group">
+        					<label for="exampleInputEmail1">Email address</label>
+        					<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+        				</div>
+        				<div class="form-group">
+        					<label for="exampleInputPassword1">Password</label>
+        					<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+        				</div>
+        				<div class="form-group">
+        					<label for="exampleInputFile">File input</label>
+        					<input type="file" id="exampleInputFile">
+        					<p class="help-block">Example block-level help text here.</p>
+        				</div>
+        				<div class="checkbox">
+        					<label>
+        						<input type="checkbox" id="checkbox"> Check me out
+        					</label>
+        				</div>
+        				<br />
+        				<br />
+        				<br />
+        				<br />
+        				<br />
+        				<br />
+        				<br />
+        				<br />
+        				<br />
+        				<br />
+        				<br />
+        				<br />
+        				<br />
+        				<br />
+        				<br />
+        				<br />
+        				<br />
+        				<br />
+        				<br />
+        				<br />
+        				<br />
+        				<br />
+        				<br />
+        				<br />
+        				<br />
+        				<br />
+        				<br />
+        				<br />
+        				<br />
+        				<br />
+        				<br />
+        				<br />
+        				<br />
+        				<br />
+        				<br />
+        				<br />
+        				<br />
+        				<br />
+        				<button type="submit" class="btn btn-default" id="submit">Submit</button>
+        			</form>
+        		</div>
+        	</div>
+    </div>
+    </body>
+</html>
