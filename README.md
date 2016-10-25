@@ -2,6 +2,8 @@
 
 Step-by-step tour for your website
 
+[![NPM](https://nodei.co/npm/nicetour.png)](https://nodei.co/npm/nicetour/)
+
 ```javascript
 niceTour.init({
     'steps': [

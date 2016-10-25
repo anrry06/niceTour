@@ -1,6 +1,6 @@
 {
   "name": "nicetour",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Step-by-step tour for your website",
   "main": "niceTour.js",
   "directories": {
