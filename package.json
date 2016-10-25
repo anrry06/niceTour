@@ -1,0 +1,27 @@
+{
+  "name": "nicetour",
+  "version": "1.0.0",
+  "description": "Step-by-step tour for your website",
+  "main": "niceTour.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anrry06/niceTour.git"
+  },
+  "keywords": [
+    "tours",
+    "demo",
+    "presentation"
+  ],
+  "author": "anrry",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anrry06/niceTour/issues"
+  },
+  "homepage": "https://github.com/anrry06/niceTour#readme"
+}
